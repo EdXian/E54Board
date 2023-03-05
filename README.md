@@ -3,7 +3,7 @@ This is a quick guide for E54Board.
 
 ## Overview:
 
-![](png\E54Board.png)
+![alt text](png/E54Board.png)
 
 ## Components
 
@@ -32,7 +32,7 @@ This is a quick guide for E54Board.
 
 3. A new disk will be found immediately. Drag the user upgrade application to the disk.
 
-   ![](png\disk.png) 
+   ![alt text](png/disk.png) 
 
 ## Enter boot entry in USER Application
 
