@@ -36,6 +36,24 @@ This is a quick guide for E54Board.
 
 ## Enter boot entry in USER Application
 
+Configure pins MPLAB Harmony 3 in IDE:
+
+![pin](png/pin.png)
+
+
+
+Add EIC14 Interrupt function 
+
+![eic](png/eic.png)
+
+
+
+Modify the start of address 
+
+![boot_addr](png/boot_addr.png)
+
+
+
 To make your application enter boot entry, you can add the following code to main:
 
 ````c
