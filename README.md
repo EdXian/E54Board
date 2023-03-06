@@ -22,9 +22,13 @@ This is a quick guide for E54Board.
 
 
 
+# Flash Bootloader
 
+You can use J-Link or Atmel/Microchip programmer to program the bootloader.
 
-# FLASH User Application
+# Flash User Application
+
+## Upload User Application
 
 1. Plug the USB Connector to your computer.
 
@@ -73,7 +77,8 @@ int main(){
 }
 ````
 
+## Enter bootloader entry by Reset
 
+In some applications, the user button is occupied and we  cannot trigger bootloader mode by pressing the button. However, the bootloader can  still be triggered by the Reset pin. One can  wire the Reset pin to ground and  the board will go bootloader mode immediately.
 
-
-
+![](png/SWD.png)
