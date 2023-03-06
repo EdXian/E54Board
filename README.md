@@ -28,6 +28,11 @@ You can use J-Link or Atmel/Microchip programmer to program the bootloader.
 
 # Flash User Application
 
+## Supported OS
+
+* Linux
+* Windows
+
 ## Upload User Application
 
 1. Plug the USB Connector to your computer.
@@ -76,6 +81,20 @@ int main(){
 ```
 }
 ````
+
+##  Build User application
+
+Launch the script `uf2conv.py` in uf2util:
+
+```
+python uf2conv.py xxx.hex --base 0x4000 --convert --output app.uf2
+```
+
+Program the device:
+
+```
+python uf2conv.py -D app.uf2
+```
 
 ## Enter bootloader entry by Reset
 
