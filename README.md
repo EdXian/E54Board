@@ -7,18 +7,18 @@ This is a quick guide for E54Board.
 
 ## Components
 
-| item                  | Model      | Note      | Status |
-| --------------------- | ---------- | --------- | ------ |
-| EEPROM                | AT24C02    | Installed | PASS   |
-| Crypto IC             | ATECC608A  | Installed | PASS   |
-| QSPI FLash            | SST26      | Installed |        |
-| SWD                   | -          | Installed | PASS   |
-| FPC (SPI+I2C)         | -          | Installed | PASS   |
-| WINC1500              | ATWINC1500 | optional  |        |
-| LCD                   |            | optional  |        |
-| micro SD              |            | optional  | PASS   |
-| touch sensor          |            | optional  |        |
-| Xplained I/O Expander |            | optional  |        |
+| item                  | Model        | Note      | Status |
+| --------------------- | ------------ | --------- | ------ |
+| EEPROM                | AT24C02      | Installed | PASS   |
+| Crypto IC             | ATECC608A    | Installed | PASS   |
+| QSPI FLash            | SST26        | Installed |        |
+| SWD                   | -            | Installed | PASS   |
+| FPC (SPI+I2C)         | -            | Installed | PASS   |
+| WINC1500              | ATWINC1500   | optional  |        |
+| LCD                   |              | optional  |        |
+| micro SD              | Kingston 2GB | optional  | PASS   |
+| touch sensor          |              | optional  |        |
+| Xplained I/O Expander |              | optional  |        |
 
 
 
