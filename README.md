@@ -7,18 +7,20 @@ This is a quick guide for E54Board.
 
 ## Components
 
-| item                  | Model        | Note     | Status |
-| --------------------- | ------------ | -------- | ------ |
-| EEPROM                | AT24C02      | On-board | PASS   |
-| Crypto IC             | ATECC608A    | On-board | PASS   |
-| QSPI FLash            | SST26(80Mhz) | On-board | PASS   |
-| SWD                   | J-Link(4Mhz) | On-board | PASS   |
-| FPC (SPI+I2C)         | -            | On-board | PASS   |
-| WINC1500              | ATWINC1500   | optional |        |
-| LCD                   | -            | optional |        |
-| micro SD              | Kingston 2GB | optional | PASS   |
-| touch sensor          | -            | optional |        |
-| Xplained I/O Expander |              | optional |        |
+| item                  | Model              | Note     | Status |
+| --------------------- | ------------------ | -------- | ------ |
+| USB                   | Type-C Connector   | On-board | PASS   |
+| EEPROM                | AT24C02            | On-board | PASS   |
+| Crypto IC             | ATECC608A          | On-board | PASS   |
+| QSPI FLash            | SST26(80Mhz)       | On-board | PASS   |
+| SWD                   | J-Link(4Mhz)       | On-board | PASS   |
+| FPC (SPI+I2C)         | -                  | On-board | PASS   |
+| WINC1500              | ATWINC1500         | optional |        |
+| LCD                   | -                  | optional |        |
+| micro SD              | Kingston 2GB       | optional | PASS   |
+| touch sensor          | -                  | optional |        |
+| Xplained I/O Expander |                    | optional | PASS   |
+| Ethernet              | LAN8720 PoE Socket | optional | PASS   |
 
 
 
